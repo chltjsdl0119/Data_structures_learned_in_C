@@ -5,4 +5,6 @@ set(CMAKE_C_STANDARD 11)
 
 add_executable(DataStructure main.c
         listS.h
-        listS.c)
+        listS.c
+        SparseMatrixTranspose.h
+        SparseMatrixTranspose.c)

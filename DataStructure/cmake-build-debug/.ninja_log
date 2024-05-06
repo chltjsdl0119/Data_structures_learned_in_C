@@ -1,5 +1,8 @@
 # ninja log v5
-1	18	1715010749831449264	CMakeFiles/DataStructure.dir/listS.c.o	f8a1ec7d9410290c
+0	22	1715011243787191905	CMakeFiles/DataStructure.dir/listS.c.o	f8a1ec7d9410290c
 1	22	1715010749835175969	CMakeFiles/DataStructure.dir/main.c.o	22dc533df6af89cc
-1	18	1715010860370105114	CMakeFiles/DataStructure.dir/listS.c.o	f8a1ec7d9410290c
 18	45	1715010860396615006	DataStructure	83c0c5ace17a9d6e
+1	20	1715011783332995387	CMakeFiles/DataStructure.dir/listS.c.o	f8a1ec7d9410290c
+1	20	1715011783332946345	CMakeFiles/DataStructure.dir/SparseMatrixTranspose.c.o	b96915990b837260
+1	24	1715011783336578300	CMakeFiles/DataStructure.dir/main.c.o	22dc533df6af89cc
+24	51	1715011783364117941	DataStructure	e3233fb3cbf3d73e
