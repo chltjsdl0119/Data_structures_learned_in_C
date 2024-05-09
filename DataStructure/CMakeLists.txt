@@ -7,4 +7,6 @@ add_executable(DataStructure main.c
         listS.h
         listS.c
         SparseMatrixTranspose.h
-        SparseMatrixTranspose.c)
+        SparseMatrixTranspose.c
+        addPoly.h
+        addPoly.c)

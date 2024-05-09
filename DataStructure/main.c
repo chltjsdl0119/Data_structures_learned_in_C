@@ -1,34 +1,22 @@
 #include <stdio.h>
-#include "SparseMatrixTranspose.h"
+#include "addPoly.h"
 
 int main() {
-    term a[9] = {
-            {6, 6, 8},
-            {0, 0, 15},
-            {0, 3, 22},
-            {0, 5, -15},
-            {1, 1, 11},
-            {1, 2, 3},
-            {2, 3, -6},
-            {4, 0, 91},
-            {5, 2, 28}
-    };
 
-    term b[sizeof(a) / sizeof(a[0])];
+    polynomial A = {3, {4, 3, 5, 0}};
+    polynomial B = {4, {3, 1, 0, 2, 1}};
+    polynomial C;
 
-    int i;
+    C = addPoly(A, B);
 
-    printf("<<Sparse Matrix a>>\n");
-    for (i = 0; i < 9; i++) {
-        printf("%d %d %d\n", a[i].row, a[i].col, a[i].value);
-    }
+    printf("A(x) = ");
+    printPoly(A);
 
-    transpose(a, b);
+    printf("B(x) = ");
+    printPoly(B);
 
-    printf("\n<<Sparse Matrix b>>\n");
-    for (i = 0; i < 9; i++) {
-        printf("%d %d %d\n", b[i].row, b[i].col, b[i].value);
-    }
+    printf("C(x) = ");
+    printPoly(C);
 
     return 0;
 }
