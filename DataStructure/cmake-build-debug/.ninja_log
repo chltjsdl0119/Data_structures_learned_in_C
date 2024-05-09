@@ -1,9 +1,20 @@
 # ninja log v5
 1	20	1715011783332995387	CMakeFiles/DataStructure.dir/listS.c.o	f8a1ec7d9410290c
-1	34	1715267560946501950	CMakeFiles/DataStructure.dir/main.c.o	22dc533df6af89cc
-1	20	1715011783332946345	CMakeFiles/DataStructure.dir/SparseMatrixTranspose.c.o	b96915990b837260
-34	1498	1715267562410153339	DataStructure	f7bac120e8b575ff
-1	34	1715267560946638533	CMakeFiles/DataStructure.dir/addPoly.c.o	bf5072f542bc5d7e
 0	28	1715268334201725679	CMakeFiles/DataStructure.dir/main.c.o	22dc533df6af89cc
-1	32	1715268334205774551	CMakeFiles/DataStructure.dir/InsertLinkedList.c.o	7ec48ef1b4ebfc86
+1	20	1715011783332946345	CMakeFiles/DataStructure.dir/SparseMatrixTranspose.c.o	b96915990b837260
+1	34	1715267560946638533	CMakeFiles/DataStructure.dir/addPoly.c.o	bf5072f542bc5d7e
 32	66	1715268334239743196	DataStructure	f78b8748d1d97f9e
+1	32	1715268334205774551	CMakeFiles/DataStructure.dir/InsertLinkedList.c.o	7ec48ef1b4ebfc86
+0	27	1715269642599131990	CMakeFiles/DataStructure.dir/main.c.o	22dc533df6af89cc
+1	32	1715269642603607695	CMakeFiles/DataStructure.dir/LinkedList.c.o	5b1b275b5905628b
+1	29	1715269692027429521	CMakeFiles/DataStructure.dir/main.c.o	22dc533df6af89cc
+1	27	1715269945038239225	CMakeFiles/DataStructure.dir/main.c.o	22dc533df6af89cc
+1	27	1715270022372910797	CMakeFiles/DataStructure.dir/main.c.o	22dc533df6af89cc
+1	22	1715270061370045349	CMakeFiles/DataStructure.dir/LinkedList.c.o	5b1b275b5905628b
+22	55	1715270061403339286	DataStructure	793cc8751e5e248b
+1	22	1715270107755972009	CMakeFiles/DataStructure.dir/InsertLinkedList.c.o	7ec48ef1b4ebfc86
+1	26	1715270107760497673	CMakeFiles/DataStructure.dir/main.c.o	22dc533df6af89cc
+1	31	1715270107764894712	CMakeFiles/DataStructure.dir/LinkedList.c.o	5b1b275b5905628b
+31	65	1715270107799132648	DataStructure	793cc8751e5e248b
+4	32	1715270338278244637	CMakeFiles/DataStructure.dir/main.c.o	22dc533df6af89cc
+32	67	1715270338313535281	DataStructure	793cc8751e5e248b

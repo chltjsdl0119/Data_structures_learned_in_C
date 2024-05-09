@@ -79,6 +79,12 @@ build CMakeFiles/DataStructure.dir/InsertLinkedList.c.o: C_COMPILER__DataStructu
   OBJECT_DIR = CMakeFiles/DataStructure.dir
   OBJECT_FILE_DIR = CMakeFiles/DataStructure.dir
 
+build CMakeFiles/DataStructure.dir/LinkedList.c.o: C_COMPILER__DataStructure_unscanned_Debug /Users/seungwon-choi/Github/Data_structures_learned_in_C/DataStructure/LinkedList.c || cmake_object_order_depends_target_DataStructure
+  DEP_FILE = CMakeFiles/DataStructure.dir/LinkedList.c.o.d
+  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/DataStructure.dir
+  OBJECT_FILE_DIR = CMakeFiles/DataStructure.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target DataStructure
@@ -87,7 +93,7 @@ build CMakeFiles/DataStructure.dir/InsertLinkedList.c.o: C_COMPILER__DataStructu
 #############################################
 # Link the executable DataStructure
 
-build DataStructure: C_EXECUTABLE_LINKER__DataStructure_Debug CMakeFiles/DataStructure.dir/main.c.o CMakeFiles/DataStructure.dir/listS.c.o CMakeFiles/DataStructure.dir/SparseMatrixTranspose.c.o CMakeFiles/DataStructure.dir/addPoly.c.o CMakeFiles/DataStructure.dir/InsertLinkedList.c.o
+build DataStructure: C_EXECUTABLE_LINKER__DataStructure_Debug CMakeFiles/DataStructure.dir/main.c.o CMakeFiles/DataStructure.dir/listS.c.o CMakeFiles/DataStructure.dir/SparseMatrixTranspose.c.o CMakeFiles/DataStructure.dir/addPoly.c.o CMakeFiles/DataStructure.dir/InsertLinkedList.c.o CMakeFiles/DataStructure.dir/LinkedList.c.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk
   OBJECT_DIR = CMakeFiles/DataStructure.dir
   POST_BUILD = :

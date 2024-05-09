@@ -11,4 +11,6 @@ add_executable(DataStructure main.c
         addPoly.h
         addPoly.c
         InsertLinkedList.h
-        InsertLinkedList.c)
+        InsertLinkedList.c
+        LinkedList.h
+        LinkedList.c)
